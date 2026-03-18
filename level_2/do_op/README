@@ -18,7 +18,7 @@ result of the operation fits in an int.
 
 Examples:
 
-$> ./do_op "123" "*" 456 | cat -e
+$> ./do_o6 | cat -ep "123" "*" 45
 56088$
 $> ./do_op "9828" "/" 234 | cat -e
 42$
